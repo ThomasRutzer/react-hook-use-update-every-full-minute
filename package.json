@@ -1,0 +1,45 @@
+{
+  "name": "react-update-every-full-minute",
+  "version": "1.0.0",
+  "description": "A react hook which updates a state every full minute",
+  "author": "Thomas Rutzer",
+  "license": "MIT",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=12",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@testing-library/react-hooks": "^3.2.1",
+    "babel-core": "^7.0.0-0",
+    "babel-eslint": "^8.2.5",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.2.1",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-react": "^6.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^26.0.1",
+    "mockdate": "^3.0.2",
+    "react": "^16.13.1",
+    "react-test-renderer": "^16.13.1"
+  },
+  "files": [
+    "dist"
+  ]
+}
